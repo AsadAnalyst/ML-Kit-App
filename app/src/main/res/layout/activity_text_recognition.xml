@@ -32,6 +32,9 @@
         app:layout_constraintBottom_toBottomOf="@id/viewFinder"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        style="@style/Widget.MaterialComponents.Button"
+        android:backgroundTint="@color/teal_700"
+        android:textColor="@android:color/white"
         android:layout_marginBottom="16dp" />
 
     <ScrollView
@@ -68,6 +71,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Copy"
+            style="@style/Widget.MaterialComponents.Button"
+            android:backgroundTint="@color/teal_700"
+            android:textColor="@android:color/white"
             android:layout_margin="8dp"/>
 
         <Button
@@ -75,6 +81,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Share"
+            style="@style/Widget.MaterialComponents.Button"
+            android:backgroundTint="@color/teal_700"
+            android:textColor="@android:color/white"
             android:layout_margin="8dp"/>
     </LinearLayout>
 

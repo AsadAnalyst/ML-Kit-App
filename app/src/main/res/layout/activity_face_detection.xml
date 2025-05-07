@@ -84,6 +84,9 @@
         android:layout_height="wrap_content"
         android:text="Capture Frame"
         android:layout_margin="16dp"
+        style="@style/Widget.MaterialComponents.Button"
+        android:backgroundTint="@color/teal_700"
+        android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
 
@@ -94,6 +97,9 @@
         android:layout_height="wrap_content"
         android:text="Show Features"
         android:layout_margin="16dp"
+        style="@style/Widget.MaterialComponents.Button"
+        android:backgroundTint="@color/teal_700"
+        android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

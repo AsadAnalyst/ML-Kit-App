@@ -67,6 +67,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="4dp"
                     android:layout_weight="1"
+                    android:backgroundTint="@color/teal_700"
+                    android:textColor="@android:color/white"
                     android:text="Copy" />
 
                 <Button
@@ -75,6 +77,9 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="4dp"
                     android:layout_weight="1"
+                    style="@style/Widget.MaterialComponents.Button"
+                    android:backgroundTint="@color/teal_700"
+                    android:textColor="@android:color/white"
                     android:text="Open" />
             </LinearLayout>
 
@@ -84,6 +89,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
+                android:backgroundTint="@color/teal_700"
+                android:textColor="@android:color/white"
                 android:text="Scan Again" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
