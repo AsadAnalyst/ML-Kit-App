@@ -68,6 +68,10 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, FeaturesActivity.class));
                 return true;
             }
+            else if (item.getItemId() == R.id.nav_settings) {
+                startActivity(new Intent(MainActivity.this, SettingsActivity.class));
+                return true;
+            }
             return false;
         });
     }
