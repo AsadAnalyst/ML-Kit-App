@@ -1,4 +1,4 @@
-sasssasasaspackage com.example.mlkitapp;
+ssasssasasaspackage com.example.mlkitapp;
 
 import android.view.LayoutInflater;
 import android.view.View;
