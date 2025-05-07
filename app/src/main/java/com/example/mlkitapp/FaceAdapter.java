@@ -1,4 +1,4 @@
-package com.example.mlkitapp;
+aspackage com.example.mlkitapp;
 
 import android.view.LayoutInflater;
 import android.view.View;
